@@ -1,0 +1,284 @@
+
+        /* --- GLOBAL STYLES --- */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #03050c; /* Deepest dark */
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- SECTION 1: TESTIMONIALS (First) --- */
+        .testimonials-section {
+            background-color: #0d0f1a; /* Slightly lighter dark for contrast */
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .section-badge {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            color: #d1d5db;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            color: #9ca3af;
+            font-size: 1.1rem;
+            margin-bottom: 60px;
+        }
+
+        /* Testimonial Cards */
+        .testimonial-card {
+            background: linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px 30px;
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            background: linear-gradient(145deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%);
+        }
+
+        .quote-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .bg-red { background-color: #dc2626; }
+        .bg-blue { background-color: #3b82f6; }
+
+        .stars {
+            color: #ef4444;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .quote-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-style: italic;
+            color: #e5e7eb;
+        }
+
+        .company-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .author-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #fff;
+            margin: 0;
+        }
+
+        .author-role {
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+
+        /* Testimonial CTA Card */
+        .cta-card {
+            margin-top: 80px;
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-card::after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 100px;
+            background: #dc2626;
+            filter: blur(80px);
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        .btn-gradient {
+            background: linear-gradient(90deg, #dc2626, #4f46e5);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+            margin-top: 20px;
+        }
+
+        .trusted-text {
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: #4b5563;
+            text-align: center;
+        }
+
+
+        /* --- SECTION 2: SECURE CLOUD HERO (Second) --- */
+        .hero-section {
+            background-color: #03050c;
+            padding: 120px 0;
+            text-align: center;
+            position: relative;
+            background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.08) 0%, rgba(3, 5, 12, 0) 70%);
+        }
+
+        .badge-pill-hero {
+            border: 1px solid #1e293b;
+            background: rgba(30, 41, 59, 0.5);
+            color: #ef4444;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+
+        .hero-h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 25px;
+        }
+
+        .highlight-blue { color: #3b82f6; }
+        .highlight-red { color: #ef4444; }
+
+        .hero-subtext {
+            color: #94a3b8;
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-primary-custom {
+            background: linear-gradient(90deg, #3b82f6, #4f46e5);
+            border: none;
+            padding: 14px 35px;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-right: 15px;
+            color: white;
+            box-shadow: 0 0 25px rgba(59, 130, 246, 0.4);
+        }
+
+        .btn-outline-custom {
+            background: transparent;
+            border: 1px solid #475569;
+            color: white;
+            padding: 14px 35px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+        .btn-outline-custom:hover {
+            border-color: white;
+            background: rgba(255,255,255,0.05);
+        }
+
+
+        /* --- FOOTER --- */
+        .footer {
+            border-top: 1px solid #1e293b;
+            padding: 80px 0 30px;
+            background-color: #03050c;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+        
+        .footer-logo i {
+            color: #3b82f6;
+            font-size: 1.6rem;
+            margin-right: 10px;
+        }
+
+        .footer-col h5 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #fff;
+        }
+
+        .footer-col ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-col ul li a {
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .footer-col ul li a:hover {
+            color: #fff;
+        }
+
+        .copyright {
+            margin-top: 60px;
+            border-top: 1px solid #1e293b;
+            padding-top: 30px;
+            color: #64748b;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-icons a {
+            color: #475569;
+            margin-left: 20px;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover { color: #3b82f6; }

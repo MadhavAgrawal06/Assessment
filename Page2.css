@@ -1,0 +1,67 @@
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .section-header h1 {
+            font-weight: 700;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .highlight-purple {
+            color: #7b61ff; /* Matches the "HawkStack's" purple */
+        }
+
+        .sub-text {
+            color: #5e6878;
+            font-size: 1.1rem;
+            max-width: 900px;
+            margin: 0 auto 50px auto;
+            line-height: 1.6;
+        }
+
+        /* Card Styling */
+        .custom-card {
+            border: 1px solid #eaecf0;
+            border-radius: 16px;
+            padding: 30px;
+            height: 100%;
+            transition: transform 0.2s;
+            background: #fff;
+        }
+        
+        /* Icon Boxes */
+        .icon-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .bg-red { background-color: #e60000; }
+        .bg-blue { background-color: #3b6df5; }
+        .bg-green { background-color: #358552; }
+
+        .card-title {
+            font-weight:400;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            color: #101828;
+        }
+
+        .card-text {
+            color: #5e6878;
+            font-size: 0.95rem;
+        }

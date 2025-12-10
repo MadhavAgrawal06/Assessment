@@ -1,0 +1,108 @@
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+        }
+
+        .hero-section {
+            background: radial-gradient(circle at center top, #2c1e38, #0a0a0e);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            padding: 4rem 1rem;
+        }
+
+        .main-icon-box {
+            width: 90px;
+            height: 90px;
+            /* Red-to-purple gradient */
+            background: linear-gradient(135deg, #6c00ff, #ff0040);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            margin: 0 auto 2rem;
+            /* Strong red glow effect */
+            box-shadow: 0 0 60px rgba(255, 0, 64, 0.6);
+        }
+
+        /* Main Title Styling */
+        .hero-title {
+            font-weight: 800;
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Gradient text effect for the first part of the title */
+        .gradient-text {
+            background: linear-gradient(to right, #ff3333, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Description text styling */
+        .hero-description {
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+            line-height: 1.6;
+        }
+
+        /* Glassmorphism Card Styling */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03); /* Very transparent white */
+            border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+            backdrop-filter: blur(10px); /* Blur effect for background */
+            border-radius: 16px;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Icon wrapper within the cards */
+        .card-icon-wrapper {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 24px;
+            border: 2px solid currentColor; /* Border matches icon color */
+        }
+
+        /* Card text styling */
+        .glass-card p {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+
+        /* Specific color styles for icons */
+        .text-red { color: #ff3333; }
+        .text-blue { color: #3b82f6; }
+        .text-green { color: #22c55e; }
+
+        /* Glow effect for the checkmark icons */
+        .card-icon-wrapper.text-red { box-shadow: 0 0 15px rgba(255, 51, 51, 0.3); }
+        .card-icon-wrapper.text-blue { box-shadow: 0 0 15px rgba(59, 130, 246, 0.3); }
+        .card-icon-wrapper.text-green { box-shadow: 0 0 15px rgba(34, 197, 94, 0.3); }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero-title { font-size: 2.25rem; }
+            .hero-description { font-size: 1rem; }
+        }

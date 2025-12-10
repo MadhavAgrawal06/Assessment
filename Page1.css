@@ -1,0 +1,122 @@
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff; /* Clean white background */
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 0;
+            overflow-x: hidden;
+        }
+
+        /* Background Glow Effect behind title */
+        .glow-bg {
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(235, 225, 255, 0.7) 0%, rgba(255,255,255,0) 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* Pill Badge */
+        .badge-pill {
+            background-color: #f3e8ff; /* Light purple bg */
+            color: #7b61ff; /* Purple text */
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        /* Main Heading */
+        h1 {
+            font-weight: 400;
+            font-size: 4rem;
+            color: #1f2937;
+            margin-bottom: 15px;
+        }
+
+        .subtitle {
+            color: #6b7280;
+            font-size: 1.1rem;
+            margin-bottom: 60px;
+        }
+
+        /* Cards */
+        .industry-card {
+            background: #fff;
+            border: 1px solid #f3f4f6;
+            border-radius: 24px; /* Very rounded corners */
+            padding: 30px 20px;
+            text-align: center;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+        }
+
+        .industry-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Icons Container */
+        .icon-box {
+            width: 65px;
+            height: 65px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px auto;
+            color: white;
+            font-size: 28px;
+            /* Subtle internal shadow for depth */
+            box-shadow: inset 0 2px 4px rgba(255,255,255,0.3), 0 8px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Specific Gradients for Icons */
+        .bg-banking { background: linear-gradient(135deg, #ef4444, #991b1b); } /* Red */
+        .bg-retail { background: linear-gradient(135deg, #3b82f6, #1d4ed8); } /* Blue */
+        .bg-telecom { background: linear-gradient(135deg, #10b981, #047857); } /* Green */
+        .bg-manufacturing { background: linear-gradient(135deg, #ec4899, #6366f1); } /* Pink-Purple */
+        .bg-healthcare { background: linear-gradient(135deg, #3b82f6, #14b8a6); } /* Blue-Teal */
+
+        .card-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #111827;
+        }
+
+        .card-text {
+            color: #6b7280;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* Bottom Button */
+        .btn-gradient {
+            margin-top: 60px;
+            background: linear-gradient(90deg, #dc2626 0%, #4f46e5 100%); /* Red to Blue Gradient */
+            border: none;
+            color: white;
+            padding: 15px 40px;
+            font-size: 1rem;
+            border-radius: 12px;
+            font-weight: 500;
+            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+            transition: opacity 0.3s;
+        }
+
+        .btn-gradient:hover {
+            opacity: 0.9;
+            color: white;
+        }
