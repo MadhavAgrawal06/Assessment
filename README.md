@@ -45,7 +45,6 @@ This project contains **5 pages** created as part of the **Frontend Assessment f
 - HTML5  
 - Bootstrap  
 - Custom CSS  
-- *No JavaScript used*
 
 ### **Page 4 (Homepage)**
 - React  
