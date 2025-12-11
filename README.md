@@ -31,11 +31,11 @@ This project contains **5 pages** created as part of the **Frontend Assessment f
 ![Page 3 Preview](Screenshots%20of%20Pages/Page3.png)
 
 ### **Page 4 (Home - React)**
-![Page 4 Preview](Screenshots%20of%20Pages/Page5/a.png)
-![Page 4 Preview](Screenshots%20of%20Pages/Page5/d.png)
+![Page 5 Preview](Screenshots%20of%20Pages/Page4.png)
 
 ### **Page 5**
-![Page 5 Preview](Screenshots%20of%20Pages/Page5.png)
+![Page 4 Preview](Screenshots%20of%20Pages/Page5/a.png)
+![Page 4 Preview](Screenshots%20of%20Pages/Page5/d.png)
 
 ---
 
